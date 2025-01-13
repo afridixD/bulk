@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #313866;
+    padding: 0;
+}
+
+.content{
+    width: 420px;
+    background-color: #50409a;
+    border-radius: 10px;
+    color: white;
+    padding: 100px 50px;
+}
+
+.content h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.content .input-box{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 45px 10px 15px;
+}
+
+.input-box input::placeholder{
+    color: #d3d3d3;
+}
+
+.input-box i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: black;
+}
+
+.content .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.content .login-btn{
+    display: block;
+    width: 35%;
+    height: 62px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin:60px auto 0 auto;
+    padding: 10px 10px;
+    transition: all 0.2s ease-in;
+}
+
+.content .login-btn:hover{
+    color: white;
+    background-color: #50409a;
+    border: 2px solid #8878f5;
+}
